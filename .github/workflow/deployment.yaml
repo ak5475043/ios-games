@@ -69,7 +69,7 @@ jobs:
       - name: Export build path
         id: export-path
         run: |
-          echo "ios_build_path=${{ matrix.folder }}/build/iOS" >> $GITHUB_OUTPUT
+          echo "ios_build_path=${{ matrix.folder }}/build/iOS/iOS" >> $GITHUB_OUTPUT
 
   sign-and-export-ipa:
     needs: build-unity
