@@ -139,8 +139,8 @@ jobs:
             -exportOptionsPlist $RUNNER_TEMP/ExportOptions.plist \
             -exportPath $RUNNER_TEMP/build
 
-      - name: Upload IPA Artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: ios-ipa
-          path: ${{ runner.temp }}/build/*.ipa
+      # - name: Upload IPA Artifact
+      #   uses: actions/upload-artifact@v3
+      #   with:
+      #     name: ios-ipa
+      #     path: ${{ runner.temp }}/build/*.ipa
