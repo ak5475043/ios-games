@@ -62,9 +62,9 @@ jobs:
           unityVersion: ${{ steps.unity-version.outputs.unity_version }}
           allowDirtyBuild: true
         env:
-          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-          UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
+          UNITY_EMAIL: support@anideebee.com
+          UNITY_PASSWORD: Qwerty12!!
+          UNITY_SERIAL: SC-RJ54-XRAS-DXGU-286W-Y38M
 
       - name: Export build path
         id: export-path
