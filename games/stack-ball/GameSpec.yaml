@@ -4,6 +4,6 @@ game:
   description: "An addictive ball-smashing game where you break through colorful stacks with precise timing. Experience IntelliVerse X's signature satisfying destruction mechanics and progressive difficulty system."
   project_path: .             
 build:
-  unity_version: 2022.3.15f1  #  your Unity LTS
+  unity_version: 2022.3.15f1  # your Unity LTS
   platform: android, ios
 
